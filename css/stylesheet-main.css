@@ -1,6 +1,9 @@
 *{
-  font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white !important;
+}
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/824806962578456586/824839279045247006/img.jpg);
 }
 header{
   position: fixed;
@@ -8,11 +11,15 @@ header{
   left: 0;
   width: 100%;
   height: 100px;
-  background:transparent;
+
 }
 
-.bg {
-  background-image: url(https://cdn.discordapp.com/attachments/810948092236922890/825000450045902898/1.png);
+.tac {
+  text-align: center;
+}
+
+.opa {
+  opacity: 50%;
 }
 
 #sitename{
@@ -30,56 +37,50 @@ header{
   font-size: 1.3em;
 }
 #list{
-   /* background: rgb(156, 156, 156); */
-  position: fixed;
+  
+  position: fixed; 
   top: 100px;
   left: 0;
   width: 30%;
-  overflow-y: auto;
+  overflow:auto;
 }
+
 #additional-information{
-  /* background: rgb(190, 190, 190); */
-  position: fixed;
+  
+   position: fixed;
   top: 100px;
   right: 0;
-  width: 30%;
-  overflow-y: auto;
-
+  width: 30%; 
+   overflow-y: auto; 
 }
 #info{
- /* background: rgb(204, 204, 204); */
+  
   position: fixed;
   top: 100px;
   left: 30%;
   width: 40%;
   overflow-y: auto;
-
 }
 #inner-info, #inner-right-info{
   padding: 1em;
 }
 .entry{
   padding: 1em;
-
 }
-/* .entry:nth-child(odd){
-  background: rgb(224, 224, 224); 
-}*/
-.entry:hover{
- /* background: rgb(255, 255, 255); */
-  cursor: default;
-  border: gray solid 3px;
+.entry:hover {
+  border: rgb(115, 169, 255) solid 4px;
+  cursor:default;
 }
 
-A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
+A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
 
 .selected{
- opacity: 50%;
+  opacity: 75%;
 }
 .author{
-  font-variant: small-caps;
+  font-weight: bold;
 }
-#levelname{
+#fname{
   font-size: 1.7em;
   font-weight: bold;
 
@@ -93,7 +94,7 @@ A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
 
 }
 .vid{
-  width: 760px;
+  width: 560px;
 }
 #records{
   width: 100%;
@@ -121,10 +122,10 @@ A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
   padding: 0.5em;
 }
 /* .record-entry:nth-child(even){
-/*  background: rgb(209, 209, 209) 
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg) 
 }
 .record-entry:nth-child(odd){
-/*  background: rgb(235, 235, 235) 
+    background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg) 
 }*/
 #block{
   position: fixed;
@@ -137,16 +138,16 @@ A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
   font-size: 3em;
 }
 .hacked{
- /* background: rgb(0, 64, 255); */
-  color: black;
+  background: rgb(0, 64, 255);
+  color: white;
   font-weight: strong;
   font-size: 0.4em;
   padding: 0.4em;
   border-radius: 1em;
 }
 .p-hacked{
- /* background: rgb(151, 191, 255); */
-  color: black;
+  background: rgb(151, 191, 255);
+  color: white;
   font-weight: strong;
   font-size: 0.4em;
   padding: 0.4em;
@@ -158,15 +159,19 @@ A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
   left: 0;
   width: 100%;
   height: 100%;
-  background:black;
-  color: black;
-    z-index: 99;
+  z-index: 99;
 }
 #user-rank {
   font-size: 20px;
   font-weight: bold;
 }
 
+.li2 {
+  margin-bottom: 10px;
+}
+.hd1 {
+  size: 75px;
+}
 Swal {
   color: black;
 }
@@ -176,17 +181,17 @@ Swal {
   width: 10px;
 }
 
-/* Track */
+ /* Track */
 /* ::-webkit-scrollbar-track {
-  background: #f1f1f1;  
-}
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
+} */
  
 /* Handle */
-/* ::-webkit-scrollbar-thumb {
-  background: grey;
-}
+/*::-webkit-scrollbar-thumb {
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
+} */
 
 /* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: rgb(68, 68, 68); 
-} 
+/*::-webkit-scrollbar-thumb:hover {
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
+} */
