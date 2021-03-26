@@ -1,9 +1,6 @@
 *{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
   color: white !important;
-}
-body {
-  background-image: url(https://cdn.discordapp.com/attachments/824806962578456586/824839279045247006/img.jpg);
 }
 header{
   position: fixed;
@@ -11,15 +8,11 @@ header{
   left: 0;
   width: 100%;
   height: 100px;
-
+  background:transparent;
 }
 
-.tac {
-  text-align: center;
-}
-
-.opa {
-  opacity: 50%;
+.bg {
+  background-image: url(https://cdn.discordapp.com/attachments/824313484253986846/824989151764938762/1.png);
 }
 
 #sitename{
@@ -37,24 +30,23 @@ header{
   font-size: 1.3em;
 }
 #list{
-  
-  position: fixed; 
+   /* background: rgb(156, 156, 156); */
+  position: fixed;
   top: 100px;
   left: 0;
   width: 30%;
-  overflow:auto;
+  overflow-y: auto;
 }
-
 #additional-information{
-  
-   position: fixed;
+  /* background: rgb(190, 190, 190); */
+  position: fixed;
   top: 100px;
   right: 0;
-  width: 30%; 
-   overflow-y: auto; 
+  width: 30%;
+  overflow-y: auto;
 }
 #info{
-  
+ /* background: rgb(204, 204, 204); */
   position: fixed;
   top: 100px;
   left: 30%;
@@ -66,21 +58,26 @@ header{
 }
 .entry{
   padding: 1em;
+
 }
-.entry:hover {
-  border: rgb(115, 169, 255) solid 4px;
-  cursor:default;
+/* .entry:nth-child(odd){
+  background: rgb(224, 224, 224); 
+}*/
+.entry:hover{
+ /* background: rgb(255, 255, 255); */
+  cursor: default;
+  border: gray solid 3px;
 }
 
-A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
+A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
 
 .selected{
-  opacity: 75%;
+ opacity: 50%;
 }
 .author{
-  font-weight: bold;
+  font-variant: small-caps;
 }
-#fname{
+#levelname{
   font-size: 1.7em;
   font-weight: bold;
 
@@ -122,10 +119,10 @@ A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
   padding: 0.5em;
 }
 /* .record-entry:nth-child(even){
-  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg) 
+/*  background: rgb(209, 209, 209) 
 }
 .record-entry:nth-child(odd){
-    background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg) 
+/*  background: rgb(235, 235, 235) 
 }*/
 #block{
   position: fixed;
@@ -138,7 +135,7 @@ A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
   font-size: 3em;
 }
 .hacked{
-  background: rgb(0, 64, 255);
+ /* background: rgb(0, 64, 255); */
   color: white;
   font-weight: strong;
   font-size: 0.4em;
@@ -146,7 +143,7 @@ A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
   border-radius: 1em;
 }
 .p-hacked{
-  background: rgb(151, 191, 255);
+ /* background: rgb(151, 191, 255); */
   color: white;
   font-weight: strong;
   font-size: 0.4em;
@@ -159,19 +156,15 @@ A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 99;
+  background:transparent;
+  color: black;
+    z-index: 99;
 }
 #user-rank {
   font-size: 20px;
   font-weight: bold;
 }
 
-.li2 {
-  margin-bottom: 10px;
-}
-.hd1 {
-  size: 75px;
-}
 Swal {
   color: black;
 }
@@ -181,17 +174,17 @@ Swal {
   width: 10px;
 }
 
- /* Track */
+/* Track */
 /* ::-webkit-scrollbar-track {
-  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
-} */
+  background: #f1f1f1;  
+}
  
 /* Handle */
-/*::-webkit-scrollbar-thumb {
-  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
-} */
+/* ::-webkit-scrollbar-thumb {
+  background: grey;
+}
 
 /* Handle on hover */
-/*::-webkit-scrollbar-thumb:hover {
-  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
-} */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: rgb(68, 68, 68); 
+} 
