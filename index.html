@@ -33,10 +33,9 @@
                 <div class="tac">
                     <div id="levelname"></div>
                     <div id="levelauthor">by <span id="inside-level-author"></span></div>
-                    <div id="leveldescription"></div>
+                    <!-- <div id="leveldescription"></div>-->
                     <div id="levelvid"></div>
                 </div>
-
                 <div id="records">
                     <div class="tac">
                         <br>
@@ -46,7 +45,7 @@
                             <div id="records-pass"></div>
                         </div>
 
-                        <hr>
+                        <br>
 
                         <div id="records-title"><strong>World Record</strong></div>
                         <br>
@@ -54,8 +53,8 @@
                             <div class="tac"><a target="_blank" href="https://discord.gg/MHx4Nbp"> Submit Record </a></div>
                         </div>
                     </div>
-                    <div id="records-table"></div>
-                    <hr>
+                    <div id="records-table" class="tac"></div>
+
                 </div>
             </div>
         </div>
@@ -88,7 +87,7 @@
                         <li>Levels must be finished and of decent quality.</li>
                         <li>Levels must not have spam faster than 15 inputs per player per second.</li>
                         <li>World records have a minimum progress percentage based on the level’s placement on the list.</li>
-                        <bold>NOTE: These rules have been simplified; read the full rules <a href="https://docs.google.com/document/d/1S1J8Ld780Y_kRRYVRqy6bmNoCBq2aRsu_3FJHRYMH1Y/edit?usp=sharing">here</a>.
+                        <bold>NOTE: These rules have been simplified; read the full rules <a href="rules.html">here</a>.
                     </ul>
                     <br>
                     <br>
@@ -96,7 +95,7 @@
                         Changelog:
                         <br>
                     <ul>
-                        Website made! hope you have a better experience with the website<i class="fas fa-chart-line opa"></i> -Electro
+                        Website made! hope you have a better experience with the website <i class="fas fa-chart-line opa"></i> -Electro
                     </ul>
                     </p>
                 </div>
@@ -356,7 +355,7 @@
                     $("#leveldescription").text(entry.desc);
                     $("#levelvid").empty();
                     if (entry.verificationVid !== null && entry.verificationVid !== "") {
-                        $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+                        $("#levelvid").html(`<br><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
                     }
                     $("#levelqualify").text(entry.percentToQualify);
                     $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
@@ -375,7 +374,7 @@
                         if (record.hz == null) {
                             record.hz = "144hz";
                         }
-                        $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>) ${record.hz}</div>`).appendTo(record_node)
+                        $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}</em>) ${record.hz}</div>`).appendTo(record_node)
                     }
                 }
                 cueCSS();

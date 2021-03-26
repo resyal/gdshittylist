@@ -7,7 +7,7 @@ const d = {
                 {
                     "user": "",
                     "link": "",
-                    "percent": "n/a",
+                    "percent": "no WR",
                     "hz": "1000FPS"
                 },
             ],
@@ -28,7 +28,7 @@ const d = {
                 {
                     "user": "HaydenDom",
                     "link": "https://youtu.be/agU2JBq6F00",
-                    "percent": "32",
+                    "percent": "32%",
                     "hz": "3000 FPS"
                 },
             ],
@@ -50,7 +50,7 @@ const d = {
                 {
                     "user": "Hyperbola",
                     "link": "https://cdn.discordapp.com/attachments/730372415154159657/813811561600647228/aunwr.mp4",
-                    "percent": "5",
+                    "percent": "5%",
                     "hz": "1440 FPS"
                 },
             ],
@@ -70,7 +70,7 @@ const d = {
                 {
                     "user": "UFokinWotM8",
                     "link": "https://www.youtube.com/watch?v=SaQacnJmlpo",
-                    "percent": "31",
+                    "percent": "31%",
                     "hz": "720 FPS"
                 },
             ],
@@ -89,7 +89,7 @@ const d = {
                 {
                     "user": "",
                     "link": "",
-                    "percent": "n/a",
+                    "percent": "no WR",
                     "hz": "1872 FPS"
                 },
             ],
@@ -108,7 +108,7 @@ const d = {
                 {
                     "user": "",
                     "link": "",
-                    "percent": "n/a",
+                    "percent": "no WR",
                     "hz": "720 FPS"
                 },
             ],
@@ -127,7 +127,7 @@ const d = {
                 {
                     "user": "Glitchi",
                     "link": "https://www.youtube.com/watch?v=mguwtdt9hjg&t=110s",
-                    "percent": "5",
+                    "percent": "5%",
                     "hz": "720 FPS"
                 },
             ],
@@ -146,7 +146,7 @@ const d = {
                 {
                     "user": "",
                     "link": "",
-                    "percent": "n/a",
+                    "percent": "no WR",
                     "hz": "1225 FPS"
                 },
             ],
@@ -165,7 +165,7 @@ const d = {
                 {
                     "user": "",
                     "link": "",
-                    "percent": "n/a",
+                    "percent": "no WR",
                     "hz": "720 FPS"
                 },
             ],
@@ -184,7 +184,7 @@ const d = {
                 {
                     "user": "maxfs",
                     "link": "https://youtu.be/hhAKd6lx0Zs",
-                    "percent": "6",
+                    "percent": "6%",
                     "hz": "720 FPS"
                 },
             ],
@@ -203,7 +203,7 @@ const d = {
                 {
                     "user": "",
                     "link": "",
-                    "percent": "n/a",
+                    "percent": "no WR",
                     "hz": "900 FPS"
                 },
             ],
@@ -222,7 +222,7 @@ const d = {
                 {
                     "user": "",
                     "link": "",
-                    "percent": "n/a",
+                    "percent": "no WR",
                     "hz": "720 FPS"
                 },
             ],

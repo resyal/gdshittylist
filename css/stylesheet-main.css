@@ -3,7 +3,7 @@
   color: white !important;
 }
 body {
-  background-image: url(https://cdn.discordapp.com/attachments/824313484253986846/824789250230845469/img.jpg);
+  background-image: url(https://cdn.discordapp.com/attachments/824806962578456586/824839279045247006/img.jpg);
 }
 header{
   position: fixed;
@@ -166,6 +166,12 @@ A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
   font-weight: bold;
 }
 
+.li2 {
+  margin-bottom: 10px;
+}
+.hd1 {
+  size: 75px;
+}
 Swal {
   color: black;
 }
